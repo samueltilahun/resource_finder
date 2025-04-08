@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <PopularCategoriesSection />
-      <TrendingNow /> 
+      <TrendingNow />  
     </div>
   );
 }

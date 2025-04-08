@@ -24,4 +24,4 @@ async function dbConnect() {
 
 global.mongoose = cached;
 
-export default dbConnect; // ✅ this is important!
+export default dbConnect;  
