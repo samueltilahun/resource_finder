@@ -1,5 +1,5 @@
 import React from "react";
-import CategoryDetail from "./CategoryDetail";
+import CategoryDetail from "@/components/CategoryDetail";
 
 const programmingCategory = {
   name: "Programming & Tech",
