@@ -24,8 +24,7 @@ const Register = () => {
     try {
       const res = await axios.post("/api/auth/register", formData);
       toast.success("✅ Registration successful! Redirecting...");
-  
-      Router.push("/")
+      Router.push("/login")
     } catch (err) {
       const errorMessage = err.response?.data?.message || "❌ Something went wrong!";
       toast.error(errorMessage);  // Show error toast

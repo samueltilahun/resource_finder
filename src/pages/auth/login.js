@@ -10,9 +10,7 @@ import { toast } from "react-toastify"; // Import toast
 const Login = () => {
   const router = useRouter(); // Initialize useRouter
   const [formData, setFormData] = useState({ email: "", password: "" });
-  const [showPassword, setShowPassword] = useState(false);
-  const [error, setError] = useState("");
-  const [success, setSuccess] = useState("");
+  const [showPassword, setShowPassword] = useState(false); 
   const [loading, setLoading] = useState(false); 
   
   const handleChange = (e) => {
