@@ -61,6 +61,26 @@ const programmingCategory = {
       link: "/subscribe/premium",
     },
   ],
+  resources: [
+    {
+      title: "Free Coding Bootcamp",
+      description: "Join our free bootcamp to kickstart your coding journey.",
+      image: "bootcamp.jpg",
+      link: "/resources/free-bootcamp",
+    },
+    {
+      title: "Web Development Blog",
+      description: "Stay updated with the latest trends in web development.",
+      image: "blog.jpg",
+      link: "/resources/web-dev-blog",
+    },
+    {
+      title: "AI & Machine Learning Guide",
+      description: "A comprehensive guide to AI and machine learning.",
+      image: "ai-guide.jpg",
+      link: "/resources/ai-guide",
+    },
+  ],
   faqs: [
     { question: "Is this course suitable for beginners?", answer: "Yes, we have courses for all levels." },
     { question: "Can I get a certificate?", answer: "Yes, certificates are available after course completion." },

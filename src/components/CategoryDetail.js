@@ -89,7 +89,7 @@ const CategoryDetail = ({ category }) => {
             </motion.div>
           ))}
         </div>
-      </section>
+      </section>  
 
       {/* Related Categories */}
       <section className="py-12 px-6 bg-gray-200">
